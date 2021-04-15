@@ -4,7 +4,9 @@ import styles from './EntryPage.module.scss';
 
 const EntryPage = () => {
   return (
-    <p className={styles.root}>Entry page</p>
+    <p className={styles.root}>
+      Entry Page
+    </p>
   );
 }
 
