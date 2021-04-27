@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 import Form from '@components/Form';
 import Input from '@components/Input';
 
-import styles from './EntryPage.module.scss';
+import styles from './LoginPage.module.scss';
 
-const EntryPage = () => {
+const LoginPage = () => {
 	const onSubmit = (data) => console.log(data);
 
 	return (
@@ -68,4 +68,4 @@ const EntryPage = () => {
 	);
 }
 
-export default EntryPage;
+export default LoginPage;

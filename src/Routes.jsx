@@ -5,7 +5,7 @@ import {
     Route
 } from 'react-router-dom';
 import { 
-    EntryPage,
+    LoginPage,
     StockPage,
     HomePage 
 } from '@pages';
@@ -15,7 +15,7 @@ const Routes = () => {
         <Router>
             <Switch>
                 <Route exact path='/' component={HomePage} />
-                <Route exact path='/login' component={EntryPage} />
+                <Route exact path='/login' component={LoginPage} />
                 <Route exact path='/stock' component={StockPage} />
             </Switch>
         </Router>
